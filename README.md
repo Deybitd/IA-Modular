@@ -3,7 +3,8 @@
 ```
 git clone https://github.com/ultralytics/yolov5
 cd yolov5
-pip install -qr requirements.txt    
+pip install -qr requirements.txt  
+pip install Ipython
 ```
 
 ## Verificar Instalacion Proyecto
@@ -12,7 +13,7 @@ import torch
 from IPython.display import Image, clear_output  # to display images
 
 clear_output()
-print(f"Setup complete. Using torch {torch.__version__} ({torch.cuda.get_device_properties(0).name if torch.cuda.is_available() else 'CPU'})")`
+print(f"Setup complete. Using torch {torch.__version__} ({torch.cuda.get_device_properties(0).name if torch.cuda.is_available() else 'CPU'})")
 ```
 
 
