@@ -22,4 +22,8 @@ print(f"Setup complete. Using torch {torch.__version__} ({torch.cuda.get_device_
 ### Descargar los pesos entrenados para deteccion de legos en este repositorio y agregarlo a la carpeta del proyecto yolov5
 
 ### Ejecutar la IA 
-python detect.py --weights best-lego.pt --source 0 
+```
+1.- Ejecutar server.py en el dispositivo que sera el servidor 
+2.- colocar la IP y puerto del servidor en el archivo detect.py 
+```
+python detect.py --weights best-lego.pt --source 0   
