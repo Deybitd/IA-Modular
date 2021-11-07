@@ -3,7 +3,7 @@
 ```
 git clone https://github.com/ultralytics/yolov5
 cd yolov5
-pip install -qr requirements.txt  
+pip install -r requirements.txt  
 pip install Ipython
 ```
 
